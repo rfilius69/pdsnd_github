@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#add comment about this project
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -38,6 +39,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+#here we begin asking for input
 
 def load_data(city, month, day):
     """
@@ -223,3 +225,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+	
+#this is the end!	
